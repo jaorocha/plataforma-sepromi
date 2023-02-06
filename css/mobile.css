@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width:668px) {
+
+    header > nav > div > a > img {
+        width: 58%;
+        position: relative;
+        top: 15%;
+        left: 5%;
+    }
+
+    .menu-container {
+        position: relative;
+        top: 0%;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .box-container {
+        margin-bottom: 50px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+      }
+}
