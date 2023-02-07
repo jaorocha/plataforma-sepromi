@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 0px 0px 60px 0px;
 }
 
 .caixas {
@@ -25,11 +26,11 @@
     }
 
 #caixa-2 {
-        background-image: url(../img/email.png);
-        }
+    background-image: url(../img/email.png);
+    }
 
 #caixa-3 {
-    background-image: url(../img/manutencao.png);
+    background-image: url(../img/ramal.png);
     }
 
 #caixa-4 {
@@ -41,11 +42,12 @@
     }
 
 #caixa-6 {
-    background-image: url(../img/manutencao.png);
+    background-image: url(../img/plataforma.png);
     }
 
 #caixa-7{
     background-image: url(../img/manutencao.png);
+    background-position: 58% 65%;
 }
 
 #caixa-8{
@@ -53,6 +55,10 @@
 }
 
 #caixa-9{
+    background-image: url(../img/manutencao.png);
+}
+
+#caixa-10{
     background-image: url(../img/manutencao.png);
 }
 
