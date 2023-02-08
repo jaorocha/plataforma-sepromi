@@ -26,6 +26,10 @@
         overflow-x: auto;
     }
 
+    .logo-code {
+        display: none;
+    }
+
     footer > p {
         font-size: 1em;
     }

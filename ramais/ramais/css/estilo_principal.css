@@ -73,7 +73,7 @@ input#ipesquisa {
 table {
    border-collapse: collapse;
    width: 80%;
-   margin: 0px 0px 70px 0px;
+   margin: 0px 0px 20px 0px;
    box-shadow: 5px 1px 5px rgba(74, 74, 74, 0.476);
 }
 
@@ -149,6 +149,39 @@ a:hover {
     justify-content: center;
     overflow-x: auto;
 }
+
+/* QR CODE */
+
+.logo-code {
+    display: flex;
+    justify-content: center;
+}
+
+.QR-CODE {
+    width: 150px;
+    height: 150px;
+}
+
+#legenda-qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.1em;
+    height: 100px;
+    width: 20%;
+
+    margin: 15px 0px 0px 20px;
+    padding: 0px 15px 0px 15px;
+
+    background-image: linear-gradient(#958969, #796c49);
+    color: white;
+    
+    border-radius: 20px 20px 20px 0px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.49);
+}
+
+/* QR CODE */
 
 ::-webkit-scrollbar {
     width: 0px;
