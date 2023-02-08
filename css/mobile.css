@@ -15,6 +15,16 @@
         left: 5%;
     }
 
+    .botao {
+        margin: 0px 0px 0px 17%;
+        width: 50%;
+    }
+
+    img#menu-img {
+        position: relative;
+        right: 20%;
+    }
+
     h1 {
         font-size: 1.4em;
     }
