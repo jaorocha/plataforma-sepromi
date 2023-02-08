@@ -24,11 +24,11 @@ header {
 }
 
 .logo {
-    background-image: url(../img/marca\ gov\ sepromi.png);
-    background-size: 400px;
+    background-image: url(../img/GOVERNO\ DO\ ESTADO.png);
+    background-size: 500px;
     background-repeat: no-repeat;
 
-    width: 440px;
+    width: 490px;
     height: 100px;
 }
 
@@ -36,7 +36,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding-top: 35px;
+    padding-top: 27px;
 }
 
 h1 {
