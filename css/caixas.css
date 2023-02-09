@@ -22,19 +22,19 @@
     }
 
 #caixa-1 {
-    background-image: url(../img/senha.png);
+    background-image: url(../img/sei.png);
     }
 
 #caixa-2 {
-    background-image: url(../img/email.png);
+    background-image: url(../img/RH.png);
     }
 
 #caixa-3 {
-    background-image: url(../img/ramal.png);
+    background-image: url(../img/email.png);
     }
 
 #caixa-4 {
-    background-image: url(../img/SEI.png);
+    background-image: url(../img/ramal.png);
     }
 
 #caixa-5 {
@@ -46,21 +46,30 @@
     }
 
 #caixa-7{
-    background-image: url(../img/manutencao.png);
-    background-position: 58% 65%;
+    background-image: url(../img/ouvidoria.png);
+    background-position: 50% 65%;
 }
 
 #caixa-8{
-    background-image: url(../img/manutencao.png);
+    background-image: url(../img/alteracao.png);
 }
 
 #caixa-9{
-    background-image: url(../img/manutencao.png);
+    background-image: url(../img/senha.png);
 }
 
 #caixa-10{
-    background-image: url(../img/ouvidoria.png);
+    background-image: url(../img/suporte.png);
 }
+
+#caixa-11{
+    background-image: url(../img/material.png);
+}
+
+#caixa-12{
+    background-image: url(../img/veículo.png);
+}
+
 
 .shadow:hover {
     transition: transform 0.5s;

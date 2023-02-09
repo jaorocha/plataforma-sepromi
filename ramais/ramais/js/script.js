@@ -1,5 +1,7 @@
 const I_PESQUISA = document.getElementById('ipesquisa');
 const TABELA = document.getElementById('tabela');
+var SEM_ACENTO = TABELA.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+console.log(SEM_ACENTO);
 
 I_PESQUISA.addEventListener('keyup', () => { // evento de clicar e tirar o dedo
     let expressao = I_PESQUISA.value.toLowerCase(); // para captrurar o valor que usúario digitar
@@ -23,4 +25,4 @@ I_PESQUISA.addEventListener('keyup', () => { // evento de clicar e tirar o dedo
             linhas[posicao].style.display = 'none'; // irão se manter invisíveis
         }
     }
-});
+}); 

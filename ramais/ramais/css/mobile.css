@@ -2,18 +2,29 @@
 
 @media screen and (min-width: 100px) and (max-width:768px) { 
 
-    header {
-        width: 100vw;
+    #logo {
+        width: 300%;
+        position: relative;
+        right: 80%;
+
     }
 
     .pesquisa {
         display: flex;
         justify-content: center;
-        margin-right: 20px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
     }
 
     input#ipesquisa {
-        width: 60%;
+        width: 90%;
         height: 40px;
         border-radius: 5px;
     }
