@@ -19,24 +19,19 @@ body {
 
 header {
     background-color: var(--HEADER);
-    height: 140px;
-    width: 100vw;
+    padding: 0px 0px 10px 0px;
 }
 
-.logo {
-    background-image: url(../img/GOVERNO\ DO\ ESTADO.png);
-    background-size: 500px;
-    background-repeat: no-repeat;
-
-    width: 490px;
-    height: 100px;
+nav {
+    margin: auto;
+    width: 20%;
 }
 
-.logo-box {
+
+#logo {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding-top: 27px;
+    padding: 10px 0px 0px 0px;
 }
 
 h1 {
@@ -88,7 +83,7 @@ thead {
 
 thead > tr > th {
     position: sticky;
-    top: -1px;
+    top: 1px;
     background-color: var(--HEADER);
 }
 
